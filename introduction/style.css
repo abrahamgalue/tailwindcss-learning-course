@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    display: flex;
+    height: 100%;
+    background-color: var(--color-zinc-50);
+  }
+}
