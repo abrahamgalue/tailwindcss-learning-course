@@ -5,8 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind CSS Course - Introduction</title>
+  <!-- Tailwind Play CDN -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="style.css">
+  <style type="text/tailwindcss">
+    @import "tailwindcss";
+
+    @layer base {
+      html {
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body {
+        display: flex;
+        height: 100%;
+        background-color: var(--color-zinc-50);
+      }
+    }
+    </style>
 </head>
 
 <body>
