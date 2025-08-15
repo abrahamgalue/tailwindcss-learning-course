@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    background-color: var(--color-zinc-100);
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    color: var(--color-zinc-950);
+    -webkit-font-smoothing: antialiased;
+    font-family: Inter Variable;
+    font-feature-settings: 'cv11';
+  }
+}
